@@ -187,6 +187,7 @@ footer p span{
 
 /* responsive start */
 /*styles for tablets */
+
 @media (min-width: 768px) and (max-width: 1199px) {
     .menu ul{
         column-gap: 2rem;    
@@ -251,6 +252,43 @@ font-size:1rem;
 }
 
 }
+@media (max-width: 600px) {
+
+    .text_container h1{
+        font-size: 1.8rem;
+        line-height:2rem; 
+     }     
+.text_container p{
+        font-size: 0.8rem;
+     }  
+.left_btn h1{
+font-size:0.8rem;
+}
+.last_container{
+grid-template-columns: repeat(2,110px );
+}
+.right_btn h1{
+font-size:0.8rem;
+}
+
+}
+@media (max-width: 480px) {
+.text_container {
+    display: block;
+}
+.left_btn h1{
+font-size:0.9;
+}
+.last_container{
+    margin-top: 2rem;
+    justify-content: center;
+grid-template-columns: repeat(2,130px );
+}
+.right_btn h1{
+font-size:0.9rem;
+}
+
+}
 
 /* Widescreen (greater than 1200px) */
 @media (min-width: 1200px) {
@@ -261,10 +299,16 @@ body{
 
 
 }
+@media (min-width: 1600px) {
+    body{
+        justify-content: center;
+        padding:0px 8rem;
+    }
+}
 @media (min-width: 1920px) {
 body{
     justify-content: center;
-    padding:0px 5rem;
+    padding:0px 19rem;
 }
 
 }
