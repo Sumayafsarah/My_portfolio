@@ -258,9 +258,15 @@ body{
     justify-content: center;
     padding:0px 2rem;
 }
-    
+
+
+}
+@media (min-width: 1920px) {
+body{
+    justify-content: center;
+    padding:0px 5rem;
 }
 
-
+}
 
 
