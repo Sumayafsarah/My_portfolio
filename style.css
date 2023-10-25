@@ -177,6 +177,7 @@ filter: drop-shadow(rgb(121, 113, 113) .20rem .10rem 0.01rem);
     text-shadow: 
             1px 1px 1px #333131,
             2px 1px 1px #070707; 
+            cursor: pointer;
 } 
 
  .right_btn button:hover{
