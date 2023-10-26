@@ -134,6 +134,7 @@ filter: drop-shadow(rgb(121, 113, 113) .20rem .10rem 0.01rem);
     filter: drop-shadow(rgb(50, 2, 35) 0.4rem 0.5rem 0.1rem);
     transform: scale(1.2);    
 }
+
  /* about_img close */
  /* two button start */
  .button_container{
@@ -177,7 +178,7 @@ filter: drop-shadow(rgb(121, 113, 113) .20rem .10rem 0.01rem);
     text-shadow: 
             1px 1px 1px #333131,
             2px 1px 1px #070707; 
-            cursor: pointer;
+            
 } 
 
  .right_btn button:hover{
